@@ -1,4 +1,115 @@
-baseURL: https://blog.noor.guru
-languageCode: en-us
-title: My Arabic Blog
-theme: "PaperMod"
+baseURL: "https://blog.noor.com"
+title: نور
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+Copyright: Noor's Arabic Blog · Site built by [Noor](https://www.noor.guru)
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "Arabic"
+    languagedirection: rtl
+    weight: 1
+    menu:
+      main:
+        - name: خواطر
+          url: categories/khawater/
+          weight: 10
+        - name: شعر
+          url: categories/she3er/
+          weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Noor's Arabic Blog"
+  author: Noor
+  hideMeta: false
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: light
+  disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowToc: false
+  TocOpen: false
+  #  comments: true
+  #  images: ["shai.png"]
+
+  profileMode:
+    enabled: false
+    title: Noor's Arabic Blog
+#    imageUrl: "noor.png"
+#    imageTitle: Noor
+
+  socialIcons:
+    - name: linkedin
+      url: "https://go.noor.guru/linkedin"
+    - name: github
+      url: "https://go.noor.guru/github"
+    - name: hackerrank
+      url: "https://go.noor.guru/hr"
+    - name: stackoverflow
+      url: "https://go.noor.guru/sof"
+    - name: youtube
+      url: "https://go.noor.guru/youtube"
+    - name: twitter
+      url: "https://go.noor.guru/twitter"
+    - name: email
+      url: "https://go.noor.guru/email"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+  category: categories
+  tag: tags
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
