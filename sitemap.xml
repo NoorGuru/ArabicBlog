@@ -3,9 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.noor.com/categories/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.noor.com/tags/</loc>
+    <loc>https://blog.noor.com/posts/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.noor.com/categories/she3er/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.noor.com/posts/she3er/nafs-alhekaya/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.noor.com/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.noor.com/tags/</loc>
   </url>
 </urlset>
