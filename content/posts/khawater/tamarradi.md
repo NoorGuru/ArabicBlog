@@ -1,7 +1,7 @@
 ---
 title: "تمرّدي.."
 date: 2015-11-09
-categories: ["she3er"]
+categories: ["khawater"]
 ---
 
 مات نهارٌ جديدٌ من عمري بلا عزاء..
