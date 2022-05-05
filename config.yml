@@ -1,6 +1,6 @@
 baseURL: "https://blog.noor.com"
 title: نور
-paginate: 5
+paginate: 50
 theme: PaperMod
 
 enableInlineShortcodes: true
