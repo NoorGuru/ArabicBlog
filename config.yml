@@ -28,6 +28,9 @@ languages:
         - name: شعر
           url: categories/she3er/
           weight: 20
+        - name: كلمات ورسائل
+          url: categories/kalemat/
+          weight: 30
 
 outputs:
   home:
